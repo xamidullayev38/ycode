@@ -1,0 +1,115 @@
+@media(max-width: 992px){
+    .nav__content .link{
+        font-size: 14px;
+    }
+    .nav__list{
+        gap: 15px;
+    }
+    .nav__list-link{
+        font-size: 16px;
+    }
+    .item{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .item__left, .item__right{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .item__left-title, .item__left-text     {
+        text-align: center;
+    }
+    .item__img{
+        max-width: 550px;
+        width: 100%;
+        max-height: 200px;
+        height: 100%;
+        border: 2px solid red;
+    }
+    .cms__content-block{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        text-align: center;
+    }
+    .cms__content-text{
+        text-align: center;
+        font-size: 21px;
+    }
+    .cms__content-title{
+        font-size: 40px;
+        text-align: center;
+
+    }
+}
+@media(max-width: 768px){
+    .nav__content{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .nav__list{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .nav__list-link{
+        font-size: 25px;
+    }
+    .nav__content .link{
+        font-size: 21px;
+    }
+    .start{
+        padding: 80px 0;
+
+    }
+    h5{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .start__subtitle{
+        font-style: 28px;
+        line-height: 30px;
+    }
+    .footer{
+        padding: 80px 10px 35px;
+    }
+    .footer__card-title{
+        text-align: center;
+    }
+    .footer__card{
+        align-items: center;
+        
+    }
+}
+@media (max-width: 480px){
+    h1{
+        text-align: center;
+        font-size: 35px;
+
+    }
+    .header__content-subtitle{
+        font-size: 25px;
+        text-align: center;
+
+    }
+    .header__content-buttons{
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+    .header__content-buttons .link{
+        font-size: 25px;
+    }  
+    .temple__title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .header__content-buttons .link{
+        font-size: 16px;
+        border: 2px solid white;
+    }
+}
